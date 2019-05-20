@@ -14,6 +14,7 @@ public class Classification {
 	
 	@Column(name="classification_id")
 	private int classificationId;
+	
 	@Column(name="classification_name")
 	private String classificationName;
 	
