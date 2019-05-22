@@ -11,11 +11,11 @@
 <form:form method="post"
           action="/mvc_Project/save" modelAttribute="classification">
           <title><h3>MVC NEW PROJECT </h3></title>
-             <table border=1>
+             <table>
                 <tr>
                     <td><form:label path="classificationId">Classification Id</form:label></td>
                     <td><form:input path="classificationId"/></td>
-                </tr>
+                </tr> 
                 <tr>
                     <td><form:label path="classificationName">Classification Name</form:label></td>
                     <td><form:input path="classificationName"/></td>

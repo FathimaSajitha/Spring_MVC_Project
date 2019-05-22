@@ -13,6 +13,7 @@
 	<property name="password" value="root"></property>
 </bean>  
 
+<!-- 
 <bean id="classificationService" class="com.sgic.library.service.ClassificationServiceImpl"> 
 	<property name="classificationDao" ref="classificationDao"></property>
 </bean>
@@ -20,6 +21,7 @@
  <bean id="classificationDao" class="com.sgic.library.dao.ClassificationDaoImpl">
  	<property name="hibernateTemplate" ref="hibernateTemplate"></property>
  </bean> 
+  -->
  
  <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
 	<property name="sessionFactory" ref="sessionFactory"></property>
